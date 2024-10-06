@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crazy Games Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 1rem;
+        }
+        .game-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin: 1rem;
+            overflow: hidden;
+            width: 200px;
+        }
+        .game-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .game-card h3 {
+            margin: 0.5rem;
+            text-align: center;
+        }
+        .game-card a {
+            display: block;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 0.5rem;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Crazy Games Clone</h1>
+    </header>
+    <main id="game-container">
+        <!-- Game cards will be inserted here -->
+    </main>
+
+    <script>
+        const games = [
+            { "name": "Pixel Racer", "url": "https://www.crazygames.com/game/pixel-racer" },
+            { "name": "Zombie Survival", "url": "https://www.crazygames.com/game/zombie-survival" },
+            { "name": "Space Invaders 3D", "url": "https://www.crazygames.com/game/space-invaders-3d" },
+            { "name": "Puzzle Master", "url": "https://www.crazygames.com/game/puzzle-master" },
+            { "name": "Ninja Warrior", "url": "https://www.crazygames.com/game/ninja-warrior" },
+            { "name": "Crazy Kart", "url": "https://www.crazygames.com/game/crazy-kart" },
+            { "name": "Sniper Elite", "url": "https://www.crazygames.com/game/sniper-elite" },
+            { "name": "Farm Simulator", "url": "https://www.crazygames.com/game/farm-simulator" },
+            { "name": "Pirate's Treasure", "url": "https://www.crazygames.com/game/pirates-treasure" },
+            { "name": "Alien Invasion", "url": "https://www.crazygames.com/game/alien-invasion" },
+            { "name": "Dungeon Crawler", "url": "https://www.crazygames.com/game/dungeon-crawler" },
+            { "name": "Skyscraper Builder", "url": "https://www.crazygames.com/game/skyscraper-builder" },
+            { "name": "Crazy Chef", "url": "https://www.crazygames.com/game/crazy-chef" },
+            { "name": "Superhero Showdown", "url": "https://www.crazygames.com/game/superhero-showdown" },
+            { "name": "Medieval Conquest", "url": "https://www.crazygames.com/game/medieval-conquest" },
+            { "name": "Rocket League Clone", "url": "https://www.crazygames.com/game/rocket-league-clone" },
+            { "name": "Pixel Art Maker", "url": "https://www.crazygames.com/game/pixel-art-maker" },
+            { "name": "Crazy Golf", "url": "https://www.crazygames.com/game/crazy-golf" },
+            { "name": "Submarine Explorer", "url": "https://www.crazygames.com/game/submarine-explorer" },
+            { "name": "Dinosaur Park", "url": "https://www.crazygames.com/game/dinosaur-park" },
+            { "name": "Escape Room Challenge", "url": "https://www.crazygames.com/game/escape-room-challenge" },
+            { "name": "Stunt Bike Extreme", "url": "https://www.crazygames.com/game/stunt-bike-extreme" },
+            { "name": "Candy Crush Saga Clone", "url": "https://www.crazygames.com/game/candy-crush-saga-clone" },
+            { "name": "Crazy Airport Manager", "url": "https://www.crazygames.com/game/crazy-airport-manager" },
+            { "name": "Pirate Ship Battle", "url": "https://www.crazygames.com/game/pirate-ship-battle" },
+            { "name": "Laser Maze", "url": "https://www.crazygames.com/game/laser-maze" },
+            { "name": "Crazy Taxi Driver", "url": "https://www.crazygames.com/game/crazy-taxi-driver" },
+            { "name": "Robot Wars", "url": "https://www.crazygames.com/game/robot-wars" },
+            { "name": "Haunted House Explorer", "url": "https://www.crazygames.com/game/haunted-house-explorer" },
+            { "name": "Crazy Scientist Lab", "url": "https://www.crazygames.com/game/crazy-scientist-lab" }
+        ];
+
+        const gameContainer = document.getElementById('game-container');
+        games.forEach(game => {
+            const gameCard = document.createElement('div');
+            gameCard.className = 'game-card';
+            gameCard.innerHTML = `
+                <img src="https://via.placeholder.com/200x150?text=${encodeURIComponent(game.name)}" alt="${game.name}">
+                <h3>${game.name}</h3>
+                <a href="${game.url}" target="_blank">Play Now</a>
+            `;
+            gameContainer.appendChild(gameCard);
+        });
+    </script>
+</body>
+</html>
