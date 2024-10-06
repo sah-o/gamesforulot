@@ -1,0 +1,124 @@
+{
+  "games": [
+    {
+      "name": "Pixel Racer",
+      "url": "https://www.crazygames.com/game/pixel-racer"
+    },
+    {
+      "name": "Zombie Survival",
+      "url": "https://www.crazygames.com/game/zombie-survival"
+    },
+    {
+      "name": "Space Invaders 3D",
+      "url": "https://www.crazygames.com/game/space-invaders-3d"
+    },
+    {
+      "name": "Puzzle Master",
+      "url": "https://www.crazygames.com/game/puzzle-master"
+    },
+    {
+      "name": "Ninja Warrior",
+      "url": "https://www.crazygames.com/game/ninja-warrior"
+    },
+    {
+      "name": "Crazy Kart",
+      "url": "https://www.crazygames.com/game/crazy-kart"
+    },
+    {
+      "name": "Sniper Elite",
+      "url": "https://www.crazygames.com/game/sniper-elite"
+    },
+    {
+      "name": "Farm Simulator",
+      "url": "https://www.crazygames.com/game/farm-simulator"
+    },
+    {
+      "name": "Pirate's Treasure",
+      "url": "https://www.crazygames.com/game/pirates-treasure"
+    },
+    {
+      "name": "Alien Invasion",
+      "url": "https://www.crazygames.com/game/alien-invasion"
+    },
+    {
+      "name": "Dungeon Crawler",
+      "url": "https://www.crazygames.com/game/dungeon-crawler"
+    },
+    {
+      "name": "Skyscraper Builder",
+      "url": "https://www.crazygames.com/game/skyscraper-builder"
+    },
+    {
+      "name": "Crazy Chef",
+      "url": "https://www.crazygames.com/game/crazy-chef"
+    },
+    {
+      "name": "Superhero Showdown",
+      "url": "https://www.crazygames.com/game/superhero-showdown"
+    },
+    {
+      "name": "Medieval Conquest",
+      "url": "https://www.crazygames.com/game/medieval-conquest"
+    },
+    {
+      "name": "Rocket League Clone",
+      "url": "https://www.crazygames.com/game/rocket-league-clone"
+    },
+    {
+      "name": "Pixel Art Maker",
+      "url": "https://www.crazygames.com/game/pixel-art-maker"
+    },
+    {
+      "name": "Crazy Golf",
+      "url": "https://www.crazygames.com/game/crazy-golf"
+    },
+    {
+      "name": "Submarine Explorer",
+      "url": "https://www.crazygames.com/game/submarine-explorer"
+    },
+    {
+      "name": "Dinosaur Park",
+      "url": "https://www.crazygames.com/game/dinosaur-park"
+    },
+    {
+      "name": "Escape Room Challenge",
+      "url": "https://www.crazygames.com/game/escape-room-challenge"
+    },
+    {
+      "name": "Stunt Bike Extreme",
+      "url": "https://www.crazygames.com/game/stunt-bike-extreme"
+    },
+    {
+      "name": "Candy Crush Saga Clone",
+      "url": "https://www.crazygames.com/game/candy-crush-saga-clone"
+    },
+    {
+      "name": "Crazy Airport Manager",
+      "url": "https://www.crazygames.com/game/crazy-airport-manager"
+    },
+    {
+      "name": "Pirate Ship Battle",
+      "url": "https://www.crazygames.com/game/pirate-ship-battle"
+    },
+    {
+      "name": "Laser Maze",
+      "url": "https://www.crazygames.com/game/laser-maze"
+    },
+    {
+      "name": "Crazy Taxi Driver",
+      "url": "https://www.crazygames.com/game/crazy-taxi-driver"
+    },
+    {
+      "name": "Robot Wars",
+      "url": "https://www.crazygames.com/game/robot-wars"
+    },
+    {
+      "name": "Haunted House Explorer",
+      "url": "https://www.crazygames.com/game/haunted-house-explorer"
+    },
+    {
+      "name": "Crazy Scientist Lab",
+      "url": "https://www.crazygames.com/game/crazy-scientist-lab"
+    }
+  ]
+}
